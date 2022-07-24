@@ -1,6 +1,6 @@
-const { defaultTheme } = require('vuepress')
+import { defineUserConfig, defaultTheme } from 'vuepress'
 
-module.exports = {
+export default defineUserConfig({
   lang: 'zh-CN',
   title: '你好， VuePress ！',
   description: '这是我的第一个 VuePress 站点',
@@ -15,5 +15,5 @@ module.exports = {
       },
     ],
   }),
-}
+})
 
