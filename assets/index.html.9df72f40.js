@@ -1,0 +1,1 @@
+import{_ as a,o as d,c as r,a as e,b as t}from"./app.ac6b804b.js";const c={},n=e("h1",{id:"guide-readme-md",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#guide-readme-md","aria-hidden":"true"},"#"),t(" guide readme.md")],-1),o=[n];function s(i,_){return d(),r("div",null,o)}var h=a(c,[["render",s],["__file","index.html.vue"]]);export{h as default};
