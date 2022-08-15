@@ -27,8 +27,7 @@ export default defineUserConfig({
         }
       ]
     },
-    navbar:
-    [
+    navbar:[
       { text: 'Home', link: '/' },
       { text: 'Categories', link: '/categories/reco/1/' },
       { text: 'Tags', link: '/tags/tag1/1/' },
@@ -104,5 +103,5 @@ export default defineUserConfig({
     //   // hideComments: true // 隐藏评论
     // },
   }),
-  // debug: true,
+  debug: true,
 })
