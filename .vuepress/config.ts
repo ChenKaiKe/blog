@@ -3,14 +3,14 @@ import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 
 export default defineUserConfig({
-  title: 'vuepress-theme-reco',
+  title: '小开的博客',
   description: 'Just playing around',
   base: '/',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/logo.png',
-    author: 'reco_luan',
-    docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
+    author: 'kaike',
+    docsRepo: 'https://github.com/ChenKaiKe/blog.git',
     docsBranch: 'main',
     docsDir: 'example',
     lastUpdatedText: '',
