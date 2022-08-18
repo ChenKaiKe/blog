@@ -15,7 +15,7 @@ banner: # banner 模块的配置
   bgImageStyle:
     height: 450px
 bannerBrand: # bannerBrand 模块的配置
-  heroText: 午后南杂
+  heroText: kaike
   tagline: Enjoy when you can, and endure when you must.
   heroImage: /favicon.ico
   heroImageStyle:
