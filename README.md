@@ -7,13 +7,13 @@ modules: # 指定首页展示模块
   - Footer
 banner: # banner 模块的配置
   heroText: kaike
-  tagline: 随便写写，记录一下...
+  tagline: 永远相信光！
   heroImageStyle:
     maxWidth: 200px
     margin: 0 auto 2rem
-  bgImage: /bg.svg
+  bgImage: /bg1.jpeg
   bgImageStyle:
-    height: 450px
+    height: 650px
 bannerBrand: # bannerBrand 模块的配置
   heroText: kaike
   tagline: Enjoy when you can, and endure when you must.

@@ -8,7 +8,7 @@ export default defineUserConfig({
   base: '/blog/',
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
-    logo: '/logo.png',
+    logo: '/favicon.ico',
     author: 'kaike',
     docsRepo: 'https://github.com/ChenKaiKe/blog.git',
     docsBranch: 'main',
