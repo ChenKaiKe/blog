@@ -11,9 +11,9 @@ banner: # banner 模块的配置
   heroImageStyle:
     maxWidth: 200px
     margin: 0 auto 2rem
-  bgImage: /bg1.jpeg
+  bgImage: /bg.svg
   bgImageStyle:
-    height: 650px
+    height: 450px
 bannerBrand: # bannerBrand 模块的配置
   heroText: kaike
   tagline: Enjoy when you can, and endure when you must.
