@@ -6,7 +6,7 @@ modules: # 指定首页展示模块
   - MdContent
   - Footer
 banner: # banner 模块的配置
-  heroText: kaike
+  heroText: K天下无双
   tagline: 永远相信光！
   heroImageStyle:
     maxWidth: 200px
@@ -15,7 +15,7 @@ banner: # banner 模块的配置
   bgImageStyle:
     height: 450px
 bannerBrand: # bannerBrand 模块的配置
-  heroText: kaike
+  heroText: K天下无双
   tagline: Enjoy when you can, and endure when you must.
   heroImage: /bg.svg
   heroImageStyle:

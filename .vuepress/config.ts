@@ -2,7 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 
 export default defineUserConfig({
-  title: '小开',
+  title: 'K天下无双',
   description: 'Just playing around',
   base: '/blog/',
   head: [
@@ -12,7 +12,7 @@ export default defineUserConfig({
   theme: recoTheme({
     style: '@vuepress-reco/style-default',
     logo: '/favicon.ico',
-    author: 'kaike',
+    author: 'K天下无双',
     authorAvatar: '/favicon.ico',
     docsRepo: 'https://github.com/ChenKaiKe/blog.git',
     docsBranch: 'main',
