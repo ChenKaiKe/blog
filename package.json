@@ -1,9 +1,9 @@
 {
-  "name": "vuepress-theme-reco-demo",
-  "version": "2.0.0",
-  "description": "Demo for vuepress-theme-reco@2.x.",
-  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
-  "author": "reco_luan <recoluan@outlook.com>",
+  "name": "xiaokai blog",
+  "version": "1.0.0",
+  "description": "Kaike's blog",
+  "repository": "https://github.com/ChenKaiKe/blog.git",
+  "author": "kaike",
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev .",
@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "vuepress": "2.0.0-beta.48",
-    "vuepress-theme-reco": "2.0.0-beta.26"
+    "vuepress-theme-reco": "2.0.0-beta.33"
   }
 }
