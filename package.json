@@ -13,5 +13,15 @@
   "dependencies": {
     "vuepress": "2.0.0-beta.48",
     "vuepress-theme-reco": "2.0.0-beta.33"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
+    "husky": "^8.0.1"
+  },
+  "husky": {
+    "hooks":{
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
