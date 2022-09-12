@@ -19,28 +19,27 @@ export default defineUserConfig({
     docsDir: 'example',
     lastUpdatedText: '',
     navbar:[
-      { text: '首页', link: '/' },
-      { text: '博客分类', link: '/categories/reco/1/' },
-      { text: '博客标签', link: '/tags/tag1/1/' },
       {
-        text: '关于作者',
+        text: 'Contact',
         children: [
           { text: 'GitHub', link: 'https://github.com/ChenKaiKe' },
         ]
       }
     ],
     // valineConfig 配置与 1.x 一致
-    // valineConfig: {
-    //   appId: 'xxx',
-    //   appKey: 'xxx',
-    //   placeholder: '填写邮箱可以收到回复提醒哦！',
-    //   verify: true, // 验证码服务
-    //   // notify: true,
-    //   recordIP: true,
-    //   // hideComments: true // 隐藏评论
-    // },
-    // autoAddCategoryToNavbar: true
+    commentConfig: {
+      type: 'valine',
+      options: {
+        appId: 'Y9UzwquqBb7ePByRCaXIhsjy-gzGzoHsz',
+        appKey: 'SisxpygXF73ddo6NBtG7mVeC',
+        placeholder: '填写邮箱可以收到回复提醒哦！',
+        verify: true, // 验证码服务
+        recordIP: true,
+        // hideComments: true // 隐藏评论
+      }
+    },
+    autoAddCategoryToNavbar: true
   }),
-  debug: true,
+  // debug: true,
   lang: 'zh-CN',
 })
