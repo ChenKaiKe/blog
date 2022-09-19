@@ -25,9 +25,9 @@ jobs:
 
        # 删除旧依赖包及dist
       - name: Delete node_modules
-        run: rm -rf ./node_modules
+        run: rm -rf ../../node_modules
       - name: Delete dist
-        run: rm -rf .vuepress/dist
+        run: rm -rf ../../.vuepress/dist
 
       # 安装依赖
       - name: Install dependencies
