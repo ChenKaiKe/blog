@@ -23,15 +23,9 @@ jobs:
           # 选择要使用的 node 版本
           node-version: '14'
 
-       # 删除旧依赖包及dist
-      - name: Delete node_modules
-        run: rm -rf node_modules/
-      - name: Delete dist
-        run: rm -rf .vuepress/dist/
-
       # 安装依赖
       - name: Install dependencies
-        run: yarn
+      - run: yarn install --frozen-lockfile
 
       # 运行构建脚本
       - name: Build VuePress site
