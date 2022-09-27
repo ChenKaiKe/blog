@@ -23,6 +23,7 @@ export default defineUserConfig({
         text: 'Contact',
         children: [
           { text: 'GitHub', link: 'https://github.com/ChenKaiKe' },
+          { text: 'JueJin', link: 'https://juejin.cn/user/2541726613379437' },
         ]
       }
     ],
