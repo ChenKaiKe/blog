@@ -6,7 +6,7 @@ export default defineUserConfig({
   description: 'Just playing around',
   base: '/blog/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/blog/favicon.ico' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }],
   ],
   theme: recoTheme({
